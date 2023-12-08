@@ -1,0 +1,32 @@
+/*Prueba Tecnica Consigna 2*/
+
+/*Cambiar el color del botón de Instagram*/
+ .elementor-element-2nzm2f0 img {
+    filter: invert(100%) sepia(100%) saturate(1000%) hue-rotate(0deg);
+}
+
+/*Cambiar el tamaño del mismo botón al pasar el mouse*/
+.elementor-column.elementor-element-2nzm2f0:hover {
+    order: 2;
+    width:100px;
+    height:100px;
+}
+
+/*Alterar la posición de los elementos*/
+.elementor-column.elementor-element-2nzm2f0 {
+    order: 2;
+    
+}
+
+
+.elementor-column.elementor-element-zt8a5rw {
+    order: 1; 
+}
+
+.elementor-column.elementor-element-4hx0cz3 {
+    order: 3; 
+}
+
+.elementor-column.elementor-element-7aqpfx2 {
+    order: 4; 
+}
